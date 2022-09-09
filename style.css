@@ -1,0 +1,183 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #333;
+
+}
+
+.backimg {
+    position: relative;
+    /* background: linear-gradient(to bottom, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 100%); */
+    /* opacity: .5; */
+}
+
+
+.logo {
+    position: absolute;
+    bottom: 990px;
+    left: 35px;
+}
+
+.iconimg {
+    height: 175px;
+    width: 175px;
+}
+
+.signup {
+    position: absolute;
+    bottom: 382px;
+    left: 453px;
+    padding-top: 57px;
+    padding-right: 50px;
+    padding-bottom: 150px;
+    padding-left: 50px;
+    background-color: rgba(0, 0, 0, .75);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signin {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.input {
+    background: #333;
+    padding: 15px;
+    border: none;
+    width: 282px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn {
+    width: 315px;
+    background-color: red;
+    margin-top: 26px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.form {
+    margin-top: 30px;
+}
+
+.binaryinput {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.help {
+    color: rgb(181 166 166);
+}
+
+.binary {
+    color: rgb(181 166 166);
+}
+
+.para1 {
+    color: #737373;
+}
+
+.para2 {
+    color: #737373;
+    font-size: 13px;
+}
+
+.que {
+    margin-top: 81px;
+}
+
+.footer {
+    width: 100%;
+    color: #757575;
+    background-color: rgba(0, 0, 0, .75);
+    position: absolute;
+    bottom: 0px;
+}
+
+.footer-content {
+    margin-left: 197px;
+    margin-left: 144px;
+    padding: 35px;
+    line-height: 30px;
+}
+
+.footerb {
+    display: flex;
+    font-size: 14px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.footerb-1 {
+    display: flex;
+    gap: 191px;
+
+}
+
+.footerb-2 {
+    display: flex;
+    gap: 96px;
+}
+
+
+
+
+.globe {
+    display: flex;
+}
+
+.image {
+    height: 30px;
+    background: grey;
+    border-radius: 84px;
+}
+
+.select {
+    display: flex;
+    gap: 15px;
+    border: 1px solid #605757;
+    border-radius: 3px;
+    width: 123px;
+    padding: 8px;
+    margin-top: 19px;
+}
+
+select {
+    background: transparent;
+    border: none;
+    color: grey;
+}
+
+.select1 {
+    margin-left: 16px;
+}
+
+.para1-a {
+    color: white;
+}
+
+.para2-b {
+    color: dodgerblue;
+}
+
+#s1 {
+    color: red;
+    font-weight: bold;
+}
+
+#s2 {
+    color: red;
+    font-weight: bold;
+}
